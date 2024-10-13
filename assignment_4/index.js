@@ -65,7 +65,7 @@ let arr3 = [vasya, petya, masha];
 
 const getAverageArr = (arr) => {
   let sum = 0;
-  array.forEach((obj) => {
+  arr.forEach((obj) => {
     sum = sum + obj.age;
   });
 
